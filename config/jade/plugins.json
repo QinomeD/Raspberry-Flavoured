@@ -27,16 +27,16 @@
     "entity_health": true,
     "energy_storage": true,
     "entity_armor.max_for_render": 40,
-    "enchantment_power": true,
+    "enchantment_power": false,
     "breaking_progress": true,
-    "tnt_stability": true,
+    "tnt_stability": false,
     "villager_profession": true,
     "mob_breeding": true,
     "entity_health.icons_per_line": 10,
     "item_frame": true,
     "crop_progress": true,
     "fluid.detailed": false,
-    "total_enchantment_power": true,
+    "total_enchantment_power": false,
     "potion_effects": true,
     "command_block": true,
     "mob_growth": true,
@@ -45,6 +45,11 @@
     "entity_health.max_for_render": 40,
     "mob_spawner": true,
     "redstone": true
+  },
+  "treechop": {
+    "plugin": true,
+    "show_tree_block_counts": true,
+    "show_num_chops_remaining": true
   },
   "exposure": {
     "lightroom": true

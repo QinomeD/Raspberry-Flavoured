@@ -7,5 +7,7 @@
 	
 	"item.environmental.willow_chest_boat": "Willow Boat with Barrel",
 	"item.environmental.cherry_chest_boat": "Cherry Boat with Barrel",
-	"item.environmental.wisteria_chest_boat": "Wisteria Boat with Barrel"
+	"item.environmental.wisteria_chest_boat": "Wisteria Boat with Barrel",
+	
+	"subtitles.environmental.entity.koi.flop": "Fish flops"
 }

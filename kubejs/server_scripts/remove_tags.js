@@ -81,10 +81,6 @@ ServerEvents.tags('item', event => {
 	"additionaladditions:music_disc_1507",
 	"environmental:music_disc_leaving_home",
 	"copperized:copper_nugget",
-	"copperized:copper_helmet",
-	"copperized:copper_chestplate",
-	"copperized:copper_leggings",
-	"copperized:copper_boots",
 	"copperized:copper_sword",
 	"copperized:copper_pickaxe",
 	"copperized:copper_axe",
@@ -790,8 +786,6 @@ ServerEvents.tags('item', event => {
     "aquaculture:atlantic_cod",
     "aquaculture:atlantic_halibut_bucket",
     "aquaculture:atlantic_halibut",
-    "aquaculture:pink_salmon_bucket",
-    "aquaculture:pink_salmon",
     "aquaculture:rainbow_trout_bucket",
     "aquaculture:rainbow_trout",
     "aquaculture:smallmouth_bass_bucket",
@@ -827,8 +821,6 @@ ServerEvents.tags('item', event => {
     "aquaculture:red_shrooma",
     "aquaculture:piranha_bucket",
     "aquaculture:piranha",
-    "aquaculture:minnow_bucket",
-    "aquaculture:minnow",
     "alloyed:steel_fishing_rod",
     "aquaculture:arapaima",
     "aquaculture:arapaima_bucket",
@@ -1738,7 +1730,58 @@ ServerEvents.tags('item', event => {
     "everycomp:ap/environmental/cherry_board_stairs",
     "everycomp:ap/atmospheric/morado_board_stairs",
     "everycomp:ap/quark/bamboo_board_stairs",
-	"supplementaries:caverns_and_chasms/hanging_sign_azalea"
+	"supplementaries:caverns_and_chasms/hanging_sign_azalea",
+	"minecraft:beetroot_soup",
+	"minecraft:bricks",
+	"minecraft:brick_slab",
+	"minecraft:brick_stairs",
+	"minecraft:brick_wall",
+	"clayworks:chiseled_bricks",
+    "minecraft:clay_ball",
+    "twigs:silt_ball",
+    "minecraft:brick",
+    "minecraft:nether_brick",
+    "architects_palette:algal_brick",
+    "architects_palette:wardstone_brick",
+    "twigs:silt_brick",
+    "supplementaries:ash_brick",
+    "minecraft:smooth_red_sandstone",
+    "minecraft:smooth_sandstone",
+    "minecraft:smooth_red_sandstone_stairs",
+    "minecraft:smooth_sandstone_stairs",
+    "minecraft:smooth_red_sandstone_slab",
+    "minecraft:smooth_sandstone_slab",
+    "quark:smooth_soul_sandstone",
+    "quark:smooth_soul_sandstone_slab",
+    "quark:smooth_soul_sandstone_stairs",
+    "atmospheric:arid_sandstone",
+    "atmospheric:arid_sandstone_slab",
+    "atmospheric:arid_sandstone_stairs",
+    "atmospheric:arid_sandstone_wall",
+    "atmospheric:smooth_arid_sandstone",
+    "atmospheric:smooth_arid_sandstone_slab",
+    "atmospheric:smooth_arid_sandstone_stairs",
+    "atmospheric:cut_arid_sandstone",
+    "atmospheric:cut_arid_sandstone_slab",
+    "atmospheric:chiseled_arid_sandstone",
+    "atmospheric:red_arid_sandstone",
+    "atmospheric:red_arid_sandstone_slab",
+    "atmospheric:red_arid_sandstone_stairs",
+    "atmospheric:red_arid_sandstone_wall",
+    "atmospheric:smooth_red_arid_sandstone",
+    "atmospheric:smooth_red_arid_sandstone_slab",
+    "atmospheric:smooth_red_arid_sandstone_stairs",
+    "atmospheric:cut_red_arid_sandstone",
+    "atmospheric:cut_red_arid_sandstone_slab",
+    "atmospheric:chiseled_red_arid_sandstone",
+    "atmospheric:arid_sandstone_bricks",
+    "atmospheric:arid_sandstone_brick_slab",
+    "atmospheric:arid_sandstone_brick_stairs",
+    "atmospheric:arid_sandstone_brick_wall",
+    "atmospheric:red_arid_sandstone_bricks",
+    "atmospheric:red_arid_sandstone_brick_slab",
+    "atmospheric:red_arid_sandstone_brick_stairs",
+    "atmospheric:red_arid_sandstone_brick_wall"
 	])
 	
 	event.removeAll('createaddition:plant_foods')
@@ -1769,4 +1812,28 @@ ServerEvents.tags('item', event => {
 	event.removeAll('create:create_ingots')
 	event.removeAll('onion_onion:motley_mushrooms')
 	event.removeAll('oreganized:consumable')
+	
+	event.removeAll('forge:dyes')
+	event.removeAll('forge:dyes/white')
+	event.removeAll('forge:dyes/orange')
+	event.removeAll('forge:dyes/magenta')
+	event.removeAll('forge:dyes/light_blue')
+	event.removeAll('forge:dyes/yellow')
+	event.removeAll('forge:dyes/lime')
+	event.removeAll('forge:dyes/pink')
+	event.removeAll('forge:dyes/gray')
+	event.removeAll('forge:dyes/light_gray')
+	event.removeAll('forge:dyes/cyan')
+	event.removeAll('forge:dyes/purple')
+	event.removeAll('forge:dyes/blue')
+	event.removeAll('forge:dyes/brown')
+	event.removeAll('forge:dyes/green')
+	event.removeAll('forge:dyes/red')
+	event.removeAll('forge:dyes/black')
+})
+ServerEvents.tags('block', event => {
+	event.removeAll('friendsandfoes:maulers_spawnable_on')
+	event.removeAll('friendsandfoes:crabs_spawnable_on')
+	event.removeAll('friendsandfoes:crab_burrow_spot_blocks')
+	event.removeAll('quark:crab_spawnable')
 })

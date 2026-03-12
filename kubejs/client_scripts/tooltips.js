@@ -4,6 +4,7 @@
 ItemEvents.tooltip(tooltip => {
 	tooltip.add([
 	'farmersdelight:melon_popsicle',
+	'atmospheric:aloe_leaves',
 	'atmospheric:aloe_gel_bottle',
 	'abnormals_delight:dune_platter',
 	'kubejs:prismatic_ice_cream',
@@ -33,7 +34,8 @@ ItemEvents.tooltip(tooltip => {
 	'kubejs:snow_top_green_tea',
 	'kubejs:snow_top_yellow_tea',
 	'kubejs:snow_top_black_tea',
-	'kubejs:snow_top_coffee'
+	'kubejs:snow_top_coffee',
+	'kubejs:lemon_fudge'
 	], Text.translate("rf.tooltip.extinguishes_fire"))
 	
     tooltip.add(['minecraft:glistering_melon_slice'], Text.translate("rf.tooltip.minor_instant_health"))
@@ -59,11 +61,6 @@ ItemEvents.tooltip(tooltip => {
     tooltip.add(['respiteful:respiteful_ice_cream'], Text.translate("rf.tooltip.respiteful_ice_cream_2"))
     tooltip.add(['respiteful:respiteful_ice_cream'], Text.translate("rf.tooltip.respiteful_ice_cream_3"))
     tooltip.add(['respiteful:respiteful_ice_cream'], Text.translate("rf.tooltip.respiteful_ice_cream_4"))
-    tooltip.add(['buzzier_bees:honey_apple'], Text.translate("rf.tooltip.honey_apple"))
-    tooltip.add(['buzzier_bees:honey_bread'], Text.translate("rf.tooltip.honey_bread"))
-    tooltip.add(['buzzier_bees:glazed_porkchop'], Text.translate("rf.tooltip.glazed_porkchop"))
-    tooltip.add(['minecraft:honey_bottle'], Text.translate("rf.tooltip.honey_bottle"))
-    tooltip.add(['minecraft:golden_carrot'], Text.translate("rf.tooltip.golden_carrot"))
     tooltip.add(['minecraft:milk_bucket'], Text.translate("rf.tooltip.clears_all_effects"))
     tooltip.add(['caverns_and_chasms:golden_milk_bucket'], Text.translate("rf.tooltip.clears_all_effects"))
     tooltip.add(['neapolitan:milk_bottle'], Text.translate("rf.tooltip.clears_1_effect"))
@@ -122,7 +119,6 @@ ItemEvents.tooltip(tooltip => {
 	"quark:potato_crate",
 	"quark:chorus_fruit_block",
 	"architects_palette:nether_brass_lantern",
-	"architects_palette:charcoal_block",
 	"architects_palette:copper_nub",
 	"architects_palette:waxed_copper_nub",
 	"architects_palette:exposed_copper_nub",
@@ -2063,8 +2059,6 @@ ItemEvents.tooltip(tooltip => {
     "aquaculture:atlantic_cod",
     "aquaculture:atlantic_halibut_bucket",
     "aquaculture:atlantic_halibut",
-    "aquaculture:pink_salmon_bucket",
-    "aquaculture:pink_salmon",
     "aquaculture:rainbow_trout_bucket",
     "aquaculture:rainbow_trout",
     "aquaculture:smallmouth_bass_bucket",
@@ -2100,8 +2094,6 @@ ItemEvents.tooltip(tooltip => {
     "aquaculture:red_shrooma",
     "aquaculture:piranha_bucket",
     "aquaculture:piranha",
-    "aquaculture:minnow_bucket",
-    "aquaculture:minnow",
     "alloyed:steel_fishing_rod",
     "aquaculture:arapaima",
     "aquaculture:arapaima_bucket",
@@ -3264,7 +3256,58 @@ ItemEvents.tooltip(tooltip => {
     "respiteful:snow_top_yellow_tea",
     "respiteful:snow_top_black_tea",
     "respiteful:snow_top_coffee",
-	"farmersrespite:purulent_tea"
+	"farmersrespite:purulent_tea",
+	"create_confectionery:honey_candy",
+    "minecraft:clay_ball",
+    "twigs:silt_ball",
+    "minecraft:brick",
+    "minecraft:nether_brick",
+    "architects_palette:algal_brick",
+    "architects_palette:wardstone_brick",
+    "twigs:silt_brick",
+    "supplementaries:ash_brick"    ,
+	"minecraft:smooth_red_sandstone",
+    "minecraft:smooth_sandstone",
+    "minecraft:smooth_red_sandstone_stairs",
+    "minecraft:smooth_sandstone_stairs",
+    "minecraft:smooth_red_sandstone_slab",
+    "minecraft:smooth_sandstone_slab",
+    "quark:smooth_soul_sandstone",
+    "quark:smooth_soul_sandstone_slab",
+    "quark:smooth_soul_sandstone_stairs",
+    "atmospheric:arid_sandstone",
+    "atmospheric:arid_sandstone_slab",
+    "atmospheric:arid_sandstone_stairs",
+    "atmospheric:arid_sandstone_wall",
+    "atmospheric:smooth_arid_sandstone",
+    "atmospheric:smooth_arid_sandstone_slab",
+    "atmospheric:smooth_arid_sandstone_stairs",
+    "atmospheric:cut_arid_sandstone",
+    "atmospheric:cut_arid_sandstone_slab",
+    "atmospheric:chiseled_arid_sandstone",
+    "atmospheric:red_arid_sandstone",
+    "atmospheric:red_arid_sandstone_slab",
+    "atmospheric:red_arid_sandstone_stairs",
+    "atmospheric:red_arid_sandstone_wall",
+    "atmospheric:smooth_red_arid_sandstone",
+    "atmospheric:smooth_red_arid_sandstone_slab",
+    "atmospheric:smooth_red_arid_sandstone_stairs",
+    "atmospheric:cut_red_arid_sandstone",
+    "atmospheric:cut_red_arid_sandstone_slab",
+    "atmospheric:chiseled_red_arid_sandstone",
+    "atmospheric:arid_sandstone_bricks",
+    "atmospheric:arid_sandstone_brick_slab",
+    "atmospheric:arid_sandstone_brick_stairs",
+    "atmospheric:arid_sandstone_brick_wall",
+    "atmospheric:red_arid_sandstone_bricks",
+    "atmospheric:red_arid_sandstone_brick_slab",
+    "atmospheric:red_arid_sandstone_brick_stairs",
+    "atmospheric:red_arid_sandstone_brick_wall",
+    "architects_palette:unobtanium",
+    "architects_palette:salmon_log",
+    "architects_palette:salmon_scales",
+    "architects_palette:cod_log",
+    "architects_palette:cod_scales"
 	], Text.translate("rf.tooltip.unobtainable"))
   
 // snowball
@@ -3295,8 +3338,6 @@ ItemEvents.tooltip(tooltip => {
     text.add(2, [Text.translate("rf.tooltip.hot_cream_cone_2").blue()])
     text.add(3, [Text.translate("rf.tooltip.hot_cream_cone_3").gray()])
     text.add(4, [Text.translate("rf.tooltip.hot_cream_cone_4").blue()])
-    text.add(5, [Text.translate("rf.tooltip.hot_cream_cone_5").gray()])
-    text.add(6, [Text.translate("rf.tooltip.hot_cream_cone_6").blue()])
   })
   
 // pickerelweed
@@ -3412,7 +3453,9 @@ ItemEvents.tooltip(tooltip => {
   'mynethersdelight:plate_of_striderloaf',
   'mynethersdelight:magma_cake_slice',
   'storagedrawers:oak_full_drawers_1',
-  'mace_backport:mace'
+  'mace_backport:mace',
+  'farmersdelight:hot_cocoa',
+  'farmersdelight:fruit_salad'
   ], (item, advanced, text) => {
 	text.remove(1)
   })
@@ -3422,7 +3465,6 @@ ItemEvents.tooltip(tooltip => {
   'farmersdelight:golden_knife',
   'minecraft:golden_axe',
   'minecraft:trident',
-  'farmersdelight:fruit_salad',
   'mynethersdelight:plate_of_ghasta_with_cream',
   'mynethersdelight:hot_wings_bucket',
   'mynethersdelight:spicy_noodle_soup',
@@ -3550,8 +3592,8 @@ ItemEvents.tooltip(tooltip => {
   })
   
   tooltip.addAdvanced('mynethersdelight:hot_cream_cone', (item, advanced, text) => {
-	text.remove(7)
-	text.remove(7)
+	text.remove(5)
+	text.remove(5)
   })
   
   tooltip.addAdvanced('toms_storage:ts.inventory_connector', (item, advanced, text) => {
@@ -3596,7 +3638,7 @@ ItemEvents.tooltip(tooltip => {
 	function filter(textList,substring) {
 		textList.removeIf(comp => comp.toFlatList().stream().anyMatch(flatComp => flatComp.string.includes(substring)))
 	}
-    tooltip.addAdvanced(['minecraft:crossbow'], (item, advanced, text) => {
+    tooltip.addAdvanced('minecraft:crossbow', (item, advanced, text) => {
 		filter(text, "Power")
     })
     tooltip.addAdvanced('echochest:echo_chest', (item, advanced, text) => {

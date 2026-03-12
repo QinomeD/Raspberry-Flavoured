@@ -41,8 +41,6 @@
     "forge:buckets/water",
     "forge:foods/fish/cooked",
     "forge:foods/fish/raw",
-    "forge:foods/meat/cooked",
-    "forge:foods/meat/raw",
     "forge:stripped_logs",
     "forge:stripped_wood",
     "map_atlases:sticky_crafting_items",
