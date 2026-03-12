@@ -46,9 +46,9 @@ etched-sounds/
 fancymenu_data
 logs
 emf
-data
+/data
 .qmenu_opened.marker
-xaero
+/xaero
 emi.json
 icon.png
 panorama.dat
@@ -59,6 +59,7 @@ kubejs/README.txt
 config/emi.css
 config/openloader/resources/*
 !config/openloader/resources/99_RaspberryResources
+XaeroWaypoints_*
 
 # Files from Forge MDK
 forge*changelog.txt
